@@ -6,88 +6,107 @@
 }
 
 body {
-  background: linear-gradient(135deg, #4f46e5, #9333ea, #ec4899);
-  color: white;
+  background: #0f172a;
+  color: #e5e7eb;
   text-align: center;
 }
 
 /* HERO */
 .hero {
   min-height: 100vh;
-  padding: 60px 20px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  background: radial-gradient(circle at top, #1e3a8a, #020617);
+}
+
+.hero-content {
+  max-width: 900px;
 }
 
 .hero h1 {
-  font-size: 64px;
+  font-size: 56px;
   margin-bottom: 20px;
+  color: #ffffff;
 }
 
 .hero p {
   font-size: 20px;
-  max-width: 700px;
-  margin: 0 auto 30px;
+  margin-bottom: 30px;
+  color: #c7d2fe;
 }
 
 .cta {
   background: #25D366;
-  color: white;
-  text-decoration: none;
-  padding: 16px 32px;
+  color: #ffffff;
+  padding: 16px 36px;
   border-radius: 40px;
+  text-decoration: none;
   font-size: 18px;
   font-weight: bold;
   display: inline-block;
-  transition: 0.3s;
 }
 
-.cta:hover {
-  background: #1da851;
-  transform: scale(1.05);
-}
-
-.note {
+.hero-note {
   margin-top: 15px;
   font-size: 14px;
-  opacity: 0.9;
+  color: #9ca3af;
+}
+
+/* TRUST */
+.trust {
+  background: #020617;
+  padding: 20px;
+  font-size: 14px;
+  color: #94a3b8;
+}
+
+/* SECTIONS */
+section {
+  padding: 80px 20px;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #ffffff;
 }
 
 /* SERVICES */
-.services {
-  background: white;
-  color: #111;
-  padding: 80px 20px;
+.service-grid {
   display: flex;
   gap: 30px;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.card {
-  background: #f9fafb;
+.service-card {
+  background: #020617;
   padding: 30px;
   border-radius: 16px;
-  width: 300px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  width: 320px;
+  border: 1px solid #1e293b;
 }
 
-.card h3 {
-  font-size: 24px;
-  margin-bottom: 10px;
+/* PROCESS */
+.process-grid {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.process-grid div {
+  width: 240px;
+}
+
+.process-grid span {
+  font-size: 28px;
+  color: #22c55e;
 }
 
 /* INSTAGRAM */
-.instagram {
-  padding: 80px 20px;
-}
-
-.instagram h2 {
-  font-size: 36px;
-  margin-bottom: 30px;
-}
-
 .ig-frame {
   width: 100%;
   max-width: 900px;
@@ -95,19 +114,14 @@ body {
   border: none;
 }
 
-.ig-link {
-  margin-top: 20px;
-}
-
-.ig-link a {
-  color: #fff;
-  font-weight: bold;
-  text-decoration: underline;
+/* FINAL CTA */
+.final-cta {
+  background: linear-gradient(135deg, #1e40af, #020617);
 }
 
 /* FOOTER */
 footer {
-  background: #0f172a;
+  background: #020617;
   padding: 20px;
   font-size: 14px;
 }
