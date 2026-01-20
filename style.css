@@ -131,3 +131,49 @@ footer a {
   text-decoration: none;
   margin-left: 10px;
 }
+/* WORK */
+.work-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.work-grid img {
+  width: 280px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+.work-note {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #9ca3af;
+}
+
+/* TESTIMONIALS */
+.testimonial-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.testimonial {
+  background: #020617;
+  padding: 25px;
+  border-radius: 14px;
+  width: 300px;
+  border: 1px solid #1e293b;
+}
+
+.testimonial p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #e5e7eb;
+}
+
+.testimonial span {
+  font-size: 14px;
+  color: #9ca3af;
+}
